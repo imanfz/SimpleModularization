@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E4CB40F0E3AE4E1F8465F76C /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B5F9A09F220AF6BEA5D476 /* Pods_Core.framework */; };
 		F44521F3274830ED00FEA50B /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = F44521F2274830ED00FEA50B /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4452204274831AC00FEA50B /* UseCaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4452203274831AC00FEA50B /* UseCaseType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		8767E0A6A513D8DC1813374D /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
 		F44521EF274830ED00FEA50B /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F44521F2274830ED00FEA50B /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		F4452203274831AC00FEA50B /* UseCaseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseType.swift; sourceTree = "<group>"; };
 		F8193BE2C5BAC7DDCB723DC4 /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,9 +72,26 @@
 		F44521F1274830ED00FEA50B /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F44522012748318900FEA50B /* Domain */,
 				F44521F2274830ED00FEA50B /* Core.h */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		F44522012748318900FEA50B /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F44522022748319500FEA50B /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F44522022748319500FEA50B /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				F4452203274831AC00FEA50B /* UseCaseType.swift */,
+			);
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +138,7 @@
 				TargetAttributes = {
 					F44521EE274830ED00FEA50B = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -180,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4452204274831AC00FEA50B /* UseCaseType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -296,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -312,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8767E0A6A513D8DC1813374D /* Pods-Core.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -332,6 +354,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -341,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8193BE2C5BAC7DDCB723DC4 /* Pods-Core.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

@@ -10,6 +10,8 @@
 		EFC5189C5E65DB2DC9D5A66F /* Pods_Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEF2BC8AD852288F7154786 /* Pods_Product.framework */; };
 		F44521DE2746D17000FEA50B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F44521E02746D17000FEA50B /* Localizable.strings */; };
 		F44521FE2748314100FEA50B /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44521FD2748314100FEA50B /* Core.framework */; };
+		F4452207274831E900FEA50B /* GetProductUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4452206274831E900FEA50B /* GetProductUseCase.swift */; };
+		F445220A2748322E00FEA50B /* GetProductPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44522092748322E00FEA50B /* GetProductPresenter.swift */; };
 		F45A8ABA273AEAD10000A2CC /* Product.h in Headers */ = {isa = PBXBuildFile; fileRef = F45A8AB9273AEAD10000A2CC /* Product.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F45A8ADD273AEBAE0000A2CC /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45A8ADC273AEBAE0000A2CC /* ProductView.swift */; };
 		F45A8ADF273AEBF10000A2CC /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45A8ADE273AEBF10000A2CC /* ProductDetailView.swift */; };
@@ -24,6 +26,8 @@
 		F44521E12746D17100FEA50B /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F44521E22746D17200FEA50B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F44521FD2748314100FEA50B /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4452206274831E900FEA50B /* GetProductUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProductUseCase.swift; sourceTree = "<group>"; };
+		F44522092748322E00FEA50B /* GetProductPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProductPresenter.swift; sourceTree = "<group>"; };
 		F45A8AB6273AEAD10000A2CC /* Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45A8AB9273AEAD10000A2CC /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		F45A8ADC273AEBAE0000A2CC /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
@@ -65,6 +69,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F4452205274831D900FEA50B /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				F4452206274831E900FEA50B /* GetProductUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		F44522082748322100FEA50B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F44522092748322E00FEA50B /* GetProductPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		F45A8AAC273AEAD00000A2CC = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +106,8 @@
 		F45A8AB8273AEAD10000A2CC /* Product */ = {
 			isa = PBXGroup;
 			children = (
+				F44522082748322100FEA50B /* Presenter */,
+				F4452205274831D900FEA50B /* UseCase */,
 				F45A8ADE273AEBF10000A2CC /* ProductDetailView.swift */,
 				F45A8ADC273AEBAE0000A2CC /* ProductView.swift */,
 				F45A8AB9273AEAD10000A2CC /* Product.h */,
@@ -204,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F45A8ADD273AEBAE0000A2CC /* ProductView.swift in Sources */,
+				F445220A2748322E00FEA50B /* GetProductPresenter.swift in Sources */,
 				F45A8ADF273AEBF10000A2CC /* ProductDetailView.swift in Sources */,
+				F4452207274831E900FEA50B /* GetProductUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
