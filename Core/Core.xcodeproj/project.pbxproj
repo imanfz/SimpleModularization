@@ -7,134 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2348437D799842410686AE2 /* Pods_Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF1AC17A3677AE9933E22DE /* Pods_Cart.framework */; };
-		F44521FA2748313100FEA50B /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44521F92748313100FEA50B /* Core.framework */; };
-		F45A8ACE273AEAEE0000A2CC /* Cart.h in Headers */ = {isa = PBXBuildFile; fileRef = F45A8ACD273AEAEE0000A2CC /* Cart.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F45A8ADB273AEB820000A2CC /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45A8ADA273AEB820000A2CC /* CartView.swift */; };
-		F45A8AE1273AED8A0000A2CC /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A8AE0273AED8A0000A2CC /* Common.framework */; };
+		E4CB40F0E3AE4E1F8465F76C /* Pods_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B5F9A09F220AF6BEA5D476 /* Pods_Core.framework */; };
+		F44521F3274830ED00FEA50B /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = F44521F2274830ED00FEA50B /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		19CC3CBF4329C6954E35596B /* Pods-Cart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart.debug.xcconfig"; path = "Target Support Files/Pods-Cart/Pods-Cart.debug.xcconfig"; sourceTree = "<group>"; };
-		9CF1AC17A3677AE9933E22DE /* Pods_Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2B4894EAB9D482733FC460D /* Pods-Cart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart.release.xcconfig"; path = "Target Support Files/Pods-Cart/Pods-Cart.release.xcconfig"; sourceTree = "<group>"; };
-		F44521F92748313100FEA50B /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F45A8ACA273AEAEE0000A2CC /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F45A8ACD273AEAEE0000A2CC /* Cart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
-		F45A8ADA273AEB820000A2CC /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
-		F45A8AE0273AED8A0000A2CC /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B5F9A09F220AF6BEA5D476 /* Pods_Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8767E0A6A513D8DC1813374D /* Pods-Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.debug.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.debug.xcconfig"; sourceTree = "<group>"; };
+		F44521EF274830ED00FEA50B /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44521F2274830ED00FEA50B /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		F8193BE2C5BAC7DDCB723DC4 /* Pods-Core.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core.release.xcconfig"; path = "Target Support Files/Pods-Core/Pods-Core.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F45A8AC7273AEAEE0000A2CC /* Frameworks */ = {
+		F44521EC274830ED00FEA50B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2348437D799842410686AE2 /* Pods_Cart.framework in Frameworks */,
-				F44521FA2748313100FEA50B /* Core.framework in Frameworks */,
-				F45A8AE1273AED8A0000A2CC /* Common.framework in Frameworks */,
+				E4CB40F0E3AE4E1F8465F76C /* Pods_Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		82EA14064EFF295543BEC5BC /* Pods */ = {
+		4BD7A0F1F6F8245C9FC88B1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				19CC3CBF4329C6954E35596B /* Pods-Cart.debug.xcconfig */,
-				A2B4894EAB9D482733FC460D /* Pods-Cart.release.xcconfig */,
+				79B5F9A09F220AF6BEA5D476 /* Pods_Core.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D213C9A636A62DE2AFC04268 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8767E0A6A513D8DC1813374D /* Pods-Core.debug.xcconfig */,
+				F8193BE2C5BAC7DDCB723DC4 /* Pods-Core.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../App/Pods;
 			sourceTree = "<group>";
 		};
-		EEEA175BD89D9A16BE231312 /* Frameworks */ = {
+		F44521E5274830ED00FEA50B = {
 			isa = PBXGroup;
 			children = (
-				F44521F92748313100FEA50B /* Core.framework */,
-				F45A8AE0273AED8A0000A2CC /* Common.framework */,
-				9CF1AC17A3677AE9933E22DE /* Pods_Cart.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F45A8AC0273AEAEE0000A2CC = {
-			isa = PBXGroup;
-			children = (
-				F45A8ACC273AEAEE0000A2CC /* Cart */,
-				F45A8ACB273AEAEE0000A2CC /* Products */,
-				82EA14064EFF295543BEC5BC /* Pods */,
-				EEEA175BD89D9A16BE231312 /* Frameworks */,
+				F44521F1274830ED00FEA50B /* Core */,
+				F44521F0274830ED00FEA50B /* Products */,
+				D213C9A636A62DE2AFC04268 /* Pods */,
+				4BD7A0F1F6F8245C9FC88B1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F45A8ACB273AEAEE0000A2CC /* Products */ = {
+		F44521F0274830ED00FEA50B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F45A8ACA273AEAEE0000A2CC /* Cart.framework */,
+				F44521EF274830ED00FEA50B /* Core.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F45A8ACC273AEAEE0000A2CC /* Cart */ = {
+		F44521F1274830ED00FEA50B /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				F45A8ADA273AEB820000A2CC /* CartView.swift */,
-				F45A8ACD273AEAEE0000A2CC /* Cart.h */,
+				F44521F2274830ED00FEA50B /* Core.h */,
 			);
-			path = Cart;
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F45A8AC5273AEAEE0000A2CC /* Headers */ = {
+		F44521EA274830ED00FEA50B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45A8ACE273AEAEE0000A2CC /* Cart.h in Headers */,
+				F44521F3274830ED00FEA50B /* Core.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F45A8AC9273AEAEE0000A2CC /* Cart */ = {
+		F44521EE274830ED00FEA50B /* Core */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F45A8AD1273AEAEE0000A2CC /* Build configuration list for PBXNativeTarget "Cart" */;
+			buildConfigurationList = F44521F6274830ED00FEA50B /* Build configuration list for PBXNativeTarget "Core" */;
 			buildPhases = (
-				BB8C544A72A991D0479E5739 /* [CP] Check Pods Manifest.lock */,
-				F45A8AC5273AEAEE0000A2CC /* Headers */,
-				F45A8AC6273AEAEE0000A2CC /* Sources */,
-				F45A8AC7273AEAEE0000A2CC /* Frameworks */,
-				F45A8AC8273AEAEE0000A2CC /* Resources */,
+				7783FBF4D2E98907B21A76FB /* [CP] Check Pods Manifest.lock */,
+				F44521EA274830ED00FEA50B /* Headers */,
+				F44521EB274830ED00FEA50B /* Sources */,
+				F44521EC274830ED00FEA50B /* Frameworks */,
+				F44521ED274830ED00FEA50B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Cart;
-			productName = Cart;
-			productReference = F45A8ACA273AEAEE0000A2CC /* Cart.framework */;
+			name = Core;
+			productName = Core;
+			productReference = F44521EF274830ED00FEA50B /* Core.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F45A8AC1273AEAEE0000A2CC /* Project object */ = {
+		F44521E6274830ED00FEA50B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					F45A8AC9273AEAEE0000A2CC = {
-						CreatedOnToolsVersion = 13.0;
-						LastSwiftMigration = 1300;
+					F44521EE274830ED00FEA50B = {
+						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = F45A8AC4273AEAEE0000A2CC /* Build configuration list for PBXProject "Cart" */;
+			buildConfigurationList = F44521E9274830ED00FEA50B /* Build configuration list for PBXProject "Core" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,18 +130,18 @@
 				en,
 				Base,
 			);
-			mainGroup = F45A8AC0273AEAEE0000A2CC;
-			productRefGroup = F45A8ACB273AEAEE0000A2CC /* Products */;
+			mainGroup = F44521E5274830ED00FEA50B;
+			productRefGroup = F44521F0274830ED00FEA50B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F45A8AC9273AEAEE0000A2CC /* Cart */,
+				F44521EE274830ED00FEA50B /* Core */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F45A8AC8273AEAEE0000A2CC /* Resources */ = {
+		F44521ED274830ED00FEA50B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -163,7 +151,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BB8C544A72A991D0479E5739 /* [CP] Check Pods Manifest.lock */ = {
+		7783FBF4D2E98907B21A76FB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,7 +166,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cart-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Core-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -188,18 +176,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F45A8AC6273AEAEE0000A2CC /* Sources */ = {
+		F44521EB274830ED00FEA50B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45A8ADB273AEB820000A2CC /* CartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F45A8ACF273AEAEE0000A2CC /* Debug */ = {
+		F44521F4274830ED00FEA50B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -263,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		F45A8AD0273AEAEE0000A2CC /* Release */ = {
+		F44521F5274830ED00FEA50B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -321,11 +308,10 @@
 			};
 			name = Release;
 		};
-		F45A8AD2273AEAEE0000A2CC /* Debug */ = {
+		F44521F7274830ED00FEA50B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19CC3CBF4329C6954E35596B /* Pods-Cart.debug.xcconfig */;
+			baseConfigurationReference = 8767E0A6A513D8DC1813374D /* Pods-Core.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -342,21 +328,19 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iman.latihan.Cart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iman.latihan.Core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F45A8AD3273AEAEE0000A2CC /* Release */ = {
+		F44521F8274830ED00FEA50B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2B4894EAB9D482733FC460D /* Pods-Cart.release.xcconfig */;
+			baseConfigurationReference = F8193BE2C5BAC7DDCB723DC4 /* Pods-Core.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -373,7 +357,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iman.latihan.Cart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iman.latihan.Core;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -385,25 +369,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F45A8AC4273AEAEE0000A2CC /* Build configuration list for PBXProject "Cart" */ = {
+		F44521E9274830ED00FEA50B /* Build configuration list for PBXProject "Core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F45A8ACF273AEAEE0000A2CC /* Debug */,
-				F45A8AD0273AEAEE0000A2CC /* Release */,
+				F44521F4274830ED00FEA50B /* Debug */,
+				F44521F5274830ED00FEA50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F45A8AD1273AEAEE0000A2CC /* Build configuration list for PBXNativeTarget "Cart" */ = {
+		F44521F6274830ED00FEA50B /* Build configuration list for PBXNativeTarget "Core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F45A8AD2273AEAEE0000A2CC /* Debug */,
-				F45A8AD3273AEAEE0000A2CC /* Release */,
+				F44521F7274830ED00FEA50B /* Debug */,
+				F44521F8274830ED00FEA50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F45A8AC1273AEAEE0000A2CC /* Project object */;
+	rootObject = F44521E6274830ED00FEA50B /* Project object */;
 }
