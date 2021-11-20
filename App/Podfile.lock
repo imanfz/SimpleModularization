@@ -5,12 +5,12 @@ DEPENDENCIES:
   - Core
 
 SPEC REPOS:
-  https://github.com/imanfz/Modular-CorePodSpecs.git:
+  https://github.com/imanfz/Modular-CorePodSpecs:
     - Core
 
 SPEC CHECKSUMS:
-  Core: 22cf285818a3668d866c2c4f0c2a0a169f5ba11d
+  Core: c51f524d1995ab8d3ee5709f026a3a7eb4f5fcf9
 
-PODFILE CHECKSUM: 81d69d12813795eda5e550e5162abdbbf0144066
+PODFILE CHECKSUM: 9b99c07a0a021368fbb8ca3f09838e7547fd3872
 
 COCOAPODS: 1.11.2

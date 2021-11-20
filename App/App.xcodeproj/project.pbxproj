@@ -18,28 +18,9 @@
 		F45A8A89273AE4760000A2CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45A8A88273AE4760000A2CC /* Assets.xcassets */; };
 		F45A8A8C273AE4760000A2CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45A8A8B273AE4760000A2CC /* Preview Assets.xcassets */; };
 		F45A8AA9273AE6E70000A2CC /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A8AA8273AE6E70000A2CC /* Common.framework */; };
-		F45A8AAA273AE6E70000A2CC /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F45A8AA8273AE6E70000A2CC /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F45A8AD6273AEB430000A2CC /* Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A8AD4273AEB430000A2CC /* Cart.framework */; };
-		F45A8AD7273AEB430000A2CC /* Cart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F45A8AD4273AEB430000A2CC /* Cart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F45A8AD8273AEB430000A2CC /* Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45A8AD5273AEB430000A2CC /* Product.framework */; };
-		F45A8AD9273AEB430000A2CC /* Product.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F45A8AD5273AEB430000A2CC /* Product.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		F45A8AAB273AE6E70000A2CC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				F45A8AD7273AEB430000A2CC /* Cart.framework in Embed Frameworks */,
-				F45A8AD9273AEB430000A2CC /* Product.framework in Embed Frameworks */,
-				F45A8AAA273AE6E70000A2CC /* Common.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		16DACB6C89064923A5CB7DB8 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,7 +139,6 @@
 				F45A8A7D273AE4730000A2CC /* Sources */,
 				F45A8A7E273AE4730000A2CC /* Frameworks */,
 				F45A8A7F273AE4730000A2CC /* Resources */,
-				F45A8AAB273AE6E70000A2CC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

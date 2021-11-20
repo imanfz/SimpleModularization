@@ -12,17 +12,15 @@ target 'App' do
 end
 
 target 'Common' do
-project '../Common/Common'
+  project '../Common/Common'
 end
 
 target 'Cart' do
-project '../Cart/Cart'
-
-pod 'Core'
+  project '../Cart/Cart'
+  pod 'Core'
 end
  
 target 'Product' do
-project '../Product/Product'
-
-pod 'Core'
+  project '../Product/Product'
+  pod 'Core'
 end
