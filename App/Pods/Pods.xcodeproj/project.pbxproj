@@ -45,18 +45,18 @@
 
 /* Begin PBXFileReference section */
 		08652DC7835007E946F943D5C16EEA92 /* Pods-Cart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cart.release.xcconfig"; sourceTree = "<group>"; };
-		0F4D620C44EF1CE7342240BAC295F02A /* Pods-Common */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Common"; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F4D620C44EF1CE7342240BAC295F02A /* Pods_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB7CD1095AE595D1C7AA05B9AA15C1A /* Pods-Common-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Common-acknowledgements.plist"; sourceTree = "<group>"; };
 		20094AF9A05B5AFEE065EFE5403128D1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
 		2B1541A6A008B64B61EDD6E3813D43FE /* Pods-App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-App.modulemap"; sourceTree = "<group>"; };
 		32AF7F7B5869EB2B5224D29B19C0BE6E /* UseCaseType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UseCaseType.swift; path = Core/Domain/UseCase/UseCaseType.swift; sourceTree = "<group>"; };
 		49CEF46270B52B2CDFE2AEE52866E57C /* Pods-Common-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Common-umbrella.h"; sourceTree = "<group>"; };
 		50EA35E0A9B27026A059E47969427B34 /* Pods-Cart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cart.modulemap"; sourceTree = "<group>"; };
-		5BEF4602752E47C46E8C10FB8B4B57F2 /* Pods-App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-App"; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEF4602752E47C46E8C10FB8B4B57F2 /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60072DB67C5816DCA301CB49C13B27F2 /* Pods-Cart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cart-dummy.m"; sourceTree = "<group>"; };
 		60E738786E1040B39F34C26705E70C55 /* Pods-Common-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Common-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66CB7168BBAFD258FCC0A05D867D0252 /* Pods-Product-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Product-Info.plist"; sourceTree = "<group>"; };
-		696B7093AC339D06FDB402C87D23B452 /* Pods-Product */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Product"; path = Pods_Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		696B7093AC339D06FDB402C87D23B452 /* Pods_Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1475F8F4327F13FFAA0C50EB0F6F48 /* Pods-Common-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Common-Info.plist"; sourceTree = "<group>"; };
 		6E7A7E588505C1ACECFEA6F23FDDD2D4 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		75C887BBF232FA7DFE350776A968C070 /* Core-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Core-prefix.pch"; sourceTree = "<group>"; };
@@ -70,13 +70,13 @@
 		93DDEB409EDDBBD47E0ABD068C6434A9 /* Pods-Cart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cart-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9BD5590DE2014ED684F1D6B16263E79A /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
 		9D88C65FBFFC798D8A857558090274F6 /* Pods-Product-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Product-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E1ACE805FFF6AC09E67AE74A96DB225 /* Pods-App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-App-dummy.m"; sourceTree = "<group>"; };
 		AA09C019DCCBC926D228F14E03352D4C /* Core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Core-umbrella.h"; sourceTree = "<group>"; };
 		AFEBEBBA761A715DEA575138B107EAA8 /* Pods-Cart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cart-Info.plist"; sourceTree = "<group>"; };
 		B00615FE49311885B3E8CD4F7ECCB45B /* Pods-App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-App-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B0ABDFA651EC672ADB6733DE118101F6 /* Pods-Product-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Product-acknowledgements.plist"; sourceTree = "<group>"; };
-		B354CD95A1BD0CA7485A9F75FCC4331A /* Core */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Core; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B354CD95A1BD0CA7485A9F75FCC4331A /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AEB164118C441E278BC2726BFDF786 /* Pods-Common.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Common.modulemap"; sourceTree = "<group>"; };
 		B45CB036B6B2D7CC7674220EABADD8AC /* Pods-Cart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cart-umbrella.h"; sourceTree = "<group>"; };
 		BD84D53954BEFDF119756AC50A698FFA /* Pods-Common-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Common-dummy.m"; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		DC1F1027A6DA23132271676B9B83A57B /* Pods-App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-App-acknowledgements.plist"; sourceTree = "<group>"; };
 		DC7C7CBF4366B196F4F8B133C8319AB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DECFB6B8AE8CB9BFF2FC1A14D17DD68E /* Pods-Cart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cart.debug.xcconfig"; sourceTree = "<group>"; };
-		E79D6993060AB907F9B4E531C773D93F /* Pods-Cart */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Cart"; path = Pods_Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79D6993060AB907F9B4E531C773D93F /* Pods_Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB78074011746010DF7A74341679774 /* Core.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Core.debug.xcconfig; sourceTree = "<group>"; };
 		F21C284CA8611B25061352EFCD5DAF9F /* Pods-Product.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Product.release.xcconfig"; sourceTree = "<group>"; };
 		FF41A649DC9D36171F5544F17CC9BD07 /* Pods-Product.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Product.modulemap"; sourceTree = "<group>"; };
@@ -228,18 +228,17 @@
 				32AF7F7B5869EB2B5224D29B19C0BE6E /* UseCaseType.swift */,
 				3B723666CA1E16161ED595281FB41FAE /* Support Files */,
 			);
-			name = Core;
 			path = Core;
 			sourceTree = "<group>";
 		};
 		7956D8B6A465EBC9254C0EBB7BA7555B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B354CD95A1BD0CA7485A9F75FCC4331A /* Core */,
-				5BEF4602752E47C46E8C10FB8B4B57F2 /* Pods-App */,
-				E79D6993060AB907F9B4E531C773D93F /* Pods-Cart */,
-				0F4D620C44EF1CE7342240BAC295F02A /* Pods-Common */,
-				696B7093AC339D06FDB402C87D23B452 /* Pods-Product */,
+				B354CD95A1BD0CA7485A9F75FCC4331A /* Core.framework */,
+				5BEF4602752E47C46E8C10FB8B4B57F2 /* Pods_App.framework */,
+				E79D6993060AB907F9B4E531C773D93F /* Pods_Cart.framework */,
+				0F4D620C44EF1CE7342240BAC295F02A /* Pods_Common.framework */,
+				696B7093AC339D06FDB402C87D23B452 /* Pods_Product.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -348,7 +347,7 @@
 			);
 			name = Core;
 			productName = Core;
-			productReference = B354CD95A1BD0CA7485A9F75FCC4331A /* Core */;
+			productReference = B354CD95A1BD0CA7485A9F75FCC4331A /* Core.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		34C16544F24CBFBD9C8B124A6FEB1BC5 /* Pods-Product */ = {
@@ -367,7 +366,7 @@
 			);
 			name = "Pods-Product";
 			productName = Pods_Product;
-			productReference = 696B7093AC339D06FDB402C87D23B452 /* Pods-Product */;
+			productReference = 696B7093AC339D06FDB402C87D23B452 /* Pods_Product.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5C415F33D02A6F89DB713EFB9D75A3FB /* Pods-App */ = {
@@ -385,7 +384,7 @@
 			);
 			name = "Pods-App";
 			productName = Pods_App;
-			productReference = 5BEF4602752E47C46E8C10FB8B4B57F2 /* Pods-App */;
+			productReference = 5BEF4602752E47C46E8C10FB8B4B57F2 /* Pods_App.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD7DFA994AEB239315477135259D90B6 /* Pods-Common */ = {
@@ -403,7 +402,7 @@
 			);
 			name = "Pods-Common";
 			productName = Pods_Common;
-			productReference = 0F4D620C44EF1CE7342240BAC295F02A /* Pods-Common */;
+			productReference = 0F4D620C44EF1CE7342240BAC295F02A /* Pods_Common.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F27620A22D366C4030A703ECFE0583E0 /* Pods-Cart */ = {
@@ -422,7 +421,7 @@
 			);
 			name = "Pods-Cart";
 			productName = Pods_Cart;
-			productReference = E79D6993060AB907F9B4E531C773D93F /* Pods-Cart */;
+			productReference = E79D6993060AB907F9B4E531C773D93F /* Pods_Cart.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -585,7 +584,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -622,7 +622,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -725,7 +726,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -820,9 +822,10 @@
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -859,7 +862,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -893,9 +897,10 @@
 				PRODUCT_NAME = Core;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -933,7 +938,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -970,7 +976,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1008,7 +1015,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1046,7 +1054,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
