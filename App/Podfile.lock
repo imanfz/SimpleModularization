@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 3012485023ff65ee5adade933a9c860f991a1701
+PODS:
+  - Core (1.0.0)
+
+DEPENDENCIES:
+  - Core
+
+SPEC REPOS:
+  https://github.com/imanfz/Modular-CorePodSpecs.git:
+    - Core
+
+SPEC CHECKSUMS:
+  Core: 22cf285818a3668d866c2c4f0c2a0a169f5ba11d
+
+PODFILE CHECKSUM: 81d69d12813795eda5e550e5162abdbbf0144066
 
 COCOAPODS: 1.11.2

@@ -5,7 +5,7 @@
 //  Created by Iman Faizal on 10/11/21.
 //
 
-import SwiftUI
+/*import SwiftUI
 import Common
 
 public struct ProductView<Destination: View> : View {
@@ -36,10 +36,41 @@ public struct ProductView<Destination: View> : View {
         }
       }.navigationBarTitle("product_title".localized(identifier: "com.iman.latihan.Product"))
   }
+}*/
+
+import SwiftUI
+import Common
+import Core
+ 
+public struct ProductView<
+  Destination: View,
+  UseCase: UseCaseType
+>: View where UseCase.Request == String, UseCase.Response == String {
+ 
+  let action: (() -> Destination)
+ 
+  let presenter: GetProductPresenter<String, String, UseCase>
+ 
+  public init(
+    presenter: GetProductPresenter<String, String, UseCase>,
+    action: @escaping (() -> Destination)
+  ) {
+    self.action = action
+    self.presenter = presenter
+  }
+ 
+  public var body: some View {
+    VStack(spacing: 20) {
+      Text("hi, im changing my name from Fandy to \(self.presenter.execute(request: "Fandy"))")
+      NavigationLink(destination: self.action()) {
+        Text("Open Cart")
+      }
+    }.navigationBarTitle("product_title".localized(identifier: "com.dicoding.academy.Product"))
+  }
 }
 
 extension ProductView {
-  var getProductPresenter: GetProductPresenter<String, String, GetProductUseCase> {
-    GetProductPresenter(useCase: GetProductUseCase())
+  var getProductPresenter: GetProductPresenter<String, String, GetOtherProductUseCase> {
+    GetProductPresenter(useCase: GetOtherProductUseCase())
   }
 }

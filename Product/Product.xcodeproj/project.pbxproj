@@ -12,6 +12,7 @@
 		F44521FE2748314100FEA50B /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F44521FD2748314100FEA50B /* Core.framework */; };
 		F4452207274831E900FEA50B /* GetProductUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4452206274831E900FEA50B /* GetProductUseCase.swift */; };
 		F445220A2748322E00FEA50B /* GetProductPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44522092748322E00FEA50B /* GetProductPresenter.swift */; };
+		F445220C2748335A00FEA50B /* GetOtherProductUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445220B2748335A00FEA50B /* GetOtherProductUseCase.swift */; };
 		F45A8ABA273AEAD10000A2CC /* Product.h in Headers */ = {isa = PBXBuildFile; fileRef = F45A8AB9273AEAD10000A2CC /* Product.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F45A8ADD273AEBAE0000A2CC /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45A8ADC273AEBAE0000A2CC /* ProductView.swift */; };
 		F45A8ADF273AEBF10000A2CC /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45A8ADE273AEBF10000A2CC /* ProductDetailView.swift */; };
@@ -28,6 +29,7 @@
 		F44521FD2748314100FEA50B /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4452206274831E900FEA50B /* GetProductUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProductUseCase.swift; sourceTree = "<group>"; };
 		F44522092748322E00FEA50B /* GetProductPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProductPresenter.swift; sourceTree = "<group>"; };
+		F445220B2748335A00FEA50B /* GetOtherProductUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOtherProductUseCase.swift; sourceTree = "<group>"; };
 		F45A8AB6273AEAD10000A2CC /* Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45A8AB9273AEAD10000A2CC /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
 		F45A8ADC273AEBAE0000A2CC /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				F4452206274831E900FEA50B /* GetProductUseCase.swift */,
+				F445220B2748335A00FEA50B /* GetOtherProductUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -156,7 +159,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					F45A8AB5273AEAD00000A2CC = {
 						CreatedOnToolsVersion = 13.0;
@@ -227,6 +230,7 @@
 			files = (
 				F45A8ADD273AEBAE0000A2CC /* ProductView.swift in Sources */,
 				F445220A2748322E00FEA50B /* GetProductPresenter.swift in Sources */,
+				F445220C2748335A00FEA50B /* GetOtherProductUseCase.swift in Sources */,
 				F45A8ADF273AEBF10000A2CC /* ProductDetailView.swift in Sources */,
 				F4452207274831E900FEA50B /* GetProductUseCase.swift in Sources */,
 			);
@@ -252,6 +256,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -316,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
